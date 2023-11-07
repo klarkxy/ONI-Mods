@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "生成", "生成", "{DD48872E-7B35-44EF-A5D3-6F1472F322CE}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.props.default = Directory.Build.props.default
+		Directory.Build.targets = Directory.Build.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "草案", "草案", "{6C166698-42A6-4AFD-9F4C-CA6C20F55887}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "激活", "激活", "{84877F02-1D2E-4A8E-BC3E-44FA8F6A417F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "废弃", "废弃", "{EA38FED7-E861-45D1-8BCA-C29F00400F9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoEggCracker", "AutoEggCracker\AutoEggCracker.csproj", "{3A359EF7-7141-45F0-B81E-A6E1C0D0227F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mergedown = Debug|Mergedown
+		Debug|Vanilla = Debug|Vanilla
+		Release|Any CPU = Release|Any CPU
+		Release|Mergedown = Release|Mergedown
+		Release|Vanilla = Release|Vanilla
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A359EF7-7141-45F0-B81E-A6E1C0D0227F}.Debug|Any CPU.ActiveCfg = Debug|Mergedown
+		{3A359EF7-7141-45F0-B81E-A6E1C0D0227F}.Debug|Any CPU.Build.0 = Debug|Mergedown
+		{3A359EF7-7141-45F0-B81E-A6E1C0D0227F}.Debug|Mergedown.ActiveCfg = Debug|Mergedown
+		{3A359EF7-7141-45F0-B81E-A6E1C0D0227F}.Debug|Mergedown.Build.0 = Debug|Mergedown
+		{3A359EF7-7141-45F0-B81E-A6E1C0D0227F}.Debug|Vanilla.ActiveCfg = Debug|Vanilla
+		{3A359EF7-7141-45F0-B81E-A6E1C0D0227F}.Debug|Vanilla.Build.0 = Debug|Vanilla
+		{3A359EF7-7141-45F0-B81E-A6E1C0D0227F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A359EF7-7141-45F0-B81E-A6E1C0D0227F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A359EF7-7141-45F0-B81E-A6E1C0D0227F}.Release|Mergedown.ActiveCfg = Release|Mergedown
+		{3A359EF7-7141-45F0-B81E-A6E1C0D0227F}.Release|Mergedown.Build.0 = Release|Mergedown
+		{3A359EF7-7141-45F0-B81E-A6E1C0D0227F}.Release|Vanilla.ActiveCfg = Release|Vanilla
+		{3A359EF7-7141-45F0-B81E-A6E1C0D0227F}.Release|Vanilla.Build.0 = Release|Vanilla
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A359EF7-7141-45F0-B81E-A6E1C0D0227F} = {6C166698-42A6-4AFD-9F4C-CA6C20F55887}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05AD4341-9C99-4998-8BEC-CFBB218B464B}
+	EndGlobalSection
+EndGlobal
